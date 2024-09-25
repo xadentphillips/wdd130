@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  nav {
+    background-color: steelblue;
+    padding: 10px;
+  }
+  a {
+    color: white;
+    margin: 40px;
+  }
+  h1 {
+    color: steelblue;
+  }
+  img {
+    width: 800px;
+    border: 10px solid rebeccapurple;
+  }
+  p {
+    padding: 10px;
+  }
+  /*
+I am trying out different alignment styles with the footer
+  */
+  footer {
+    text-align: left;
+    background-color: steelblue;
+    color: white;
+  }
+  h2 {
+    background-color: steelblue;
+    color: white;
+
+  }
+
+  /* Control Slash */
