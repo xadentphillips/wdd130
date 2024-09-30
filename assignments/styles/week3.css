@@ -1,0 +1,21 @@
+a {
+    color: purple;
+    text-decoration: none;
+}
+
+.pink-background{
+    background-color: pink;
+    color: hotpink;
+    font-family: sans-serif;
+}
+
+p {
+    background-color: green;
+}
+
+#my-name {
+    color: white;
+    background-color: plum;
+    padding: 10px;
+    font-family: sans-serif;
+}
