@@ -1,0 +1,39 @@
+h1{
+    font-size: 1.5em;
+    color: white;
+}
+body{
+    background-color: skyblue;
+    text-align: center;
+    margin: 0 auto;
+}
+h1:hover{
+    color: black;
+}
+main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.quote{
+    font-size: 2em;
+}
+p{
+    color: white;
+}
+.end{
+    color: black;
+}
+li{
+    color: black;
+}
+img{
+    width: 200px;
+}
+ol{
+    text-align: left;
+    margin: 0 auto;
+    width: 400px;
+}
+.nolines{
+    font-family: sans-serif;
+}

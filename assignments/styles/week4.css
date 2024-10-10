@@ -1,0 +1,31 @@
+main{
+    background-color: lightblue;
+    width: 80vw;
+    margin: 0 auto;
+}
+img{
+    width: 50%;
+}
+h1{
+    text-align: right;
+}
+#green{
+    background-color: lightgreen;
+}
+footer p{
+    color: black;
+}
+p{
+    color: hotpink;
+    text-align: right;
+    width: 50%;
+    margin: 0 auto;
+}
+
+a:hover{
+    background-color: chartreuse;
+    color: black;
+}
+nav{
+    text-align: left;
+}
