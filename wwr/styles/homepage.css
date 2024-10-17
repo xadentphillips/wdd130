@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1{
+    font-family: 'Gloria Hallelujah', 'Poppins', sans-serif;
+}
+h2, h4{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+}
+a{
+    font-family: "Poppins", sans-serif;
+}
+#logo_link{
+    padding-top: 5px;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -11,9 +28,14 @@ nav a{
     background-color: #FB8500;
     color: #023047;
     text-decoration: none;
+    padding: 35px;
+}
+h2{
+    margin: 0;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: "Gloria Hallelujah", "Poppins" sans-serif;
 }
 .button-box a{
     text-align: center;
@@ -25,6 +47,8 @@ main section{
 }
 body{
     background-color: #8ECAE6;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #70FF75;
@@ -40,6 +64,10 @@ nav a:hover{
     color:#023047;
     text-decoration: none;
     text-align: center;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:#023047;
@@ -47,17 +75,23 @@ nav a:hover{
     text-decoration: underline;
 }
 .msg{
-    background-color: #8ECAE6;
+    background-color: #023047;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #70FF75;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .msg h2{
-    color:#023047;
+    color:#8ECAE6;
 }
 .msg p{
-    color: black;
+    color: #8ECAE6;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a:hover{
     color:#FB8500;
@@ -74,9 +108,13 @@ h4{
 .home-title{
     color:#023047;
     text-align: center;
+    font-family: "Gloria Hallelujah", "Poppins" sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -94,4 +132,16 @@ footer p{
 .buttonbox{
     margin: 0 auto;
     text-align: center;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.cardimg{
+    border: 10px solid #70FF75;
+}
+main section img{
+    box-sizing: border-box;
 }
