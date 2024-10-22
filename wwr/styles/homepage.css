@@ -35,7 +35,6 @@ h2{
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    font-family: "Gloria Hallelujah", "Poppins" sans-serif;
 }
 .button-box a{
     text-align: center;
@@ -108,7 +107,6 @@ h4{
 .home-title{
     color:#023047;
     text-align: center;
-    font-family: "Gloria Hallelujah", "Poppins" sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
