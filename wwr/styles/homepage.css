@@ -322,9 +322,6 @@ main #schedule{
     font-size: 2.5em;
     margin: 0 auto;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-header{
-    background-color:#70FF75;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
