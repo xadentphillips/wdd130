@@ -124,6 +124,9 @@ a{
     max-width: 700px;
     padding-top: 100px;
 }
+#bentitle{
+    text-align: center;
+}
 /* This is the css for my footer */
 footer{
     background-color:#68CDDF;
