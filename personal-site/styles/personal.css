@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* This is my Header related css */
+header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color:#68CDDF;
+    margin: 0;
+}
+#logo img{
+    max-height: 100px;
+    max-width: 100px;
+    grid-column: 1/2;
+}
+nav{
+    grid-column: 2/3;
+    height: 100px;
+    margin-top: 50px;
+}
+nav a{
+    color: white;
+    background-color: #5EC940;
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+}
+a{
+    font-size: 1.5em;
+}
+nav a:hover{
+    color: #5EC940;
+    background-color: #FFF;
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+}
+/* This is the css for my main */
+body{
+    margin: 0;
+    background-color: #5EC940;
+}
+main{
+    background-color:#5EC940;
+    margin: 0;
+    padding-bottom: 100px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Lilita One";
+    color:#68CDDF;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+p{
+    font-family: "Rubik", sans-serif;
+    color:white;
+}
+a{
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+#hometitle{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 2.5em;
+}
+#homestart{
+    padding-top: 30px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr .2fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+#schoolpic{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 40px
+}
+#schoolpic p{
+    text-align: center;
+    font-size: .5em;
+}
+#schoolpic img{
+    max-height: 800px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 50px;
+}
+#schoolcap{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    max-width: 400px;
+}
+#cakepic{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#cakepic p{
+    text-align: center;
+    font-size: .5em;
+}
+#cakepic img{
+    margin: 0 auto;
+}
+#cakecap{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text-align: center;
+    max-width: 350px;
+}
+#mission{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px;
+    padding-top: 100px;
+}
+/* This is the css for my footer */
+footer{
+    background-color:#68CDDF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+}
+footer p{
+    color:black;
+    grid-column: 1/2
+}
+footer img{
+    max-width: 50px;
+    max-height: 50px;
+    padding: 10px
+}
+footer a{
+    color:#5EC940;
+    grid-column: 2/3
+}
+footer a:hover{
+    color:white;
+    text-shadow: none;
+}
+#social{
+    grid-column: 3/4;
+}
+#bottomlinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#con{
+    grid-column: 1/2;
+    padding-right: 15px;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+#site{
+    grid-column: 2/3;
+    padding-left: 15px;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+#site:hover{
+    text-shadow: none;
+}
+#con:hover{
+    text-shadow: none;
+}
