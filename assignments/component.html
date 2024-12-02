@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/component.css">
+    <title>Web Component Accordion</title>
+</head>
+
+<body>
+    <main>
+        <h1>Sweet Salone</h1>
+        <button class="accordion">About Sierra Leone</button>
+        <div class="panel">
+            <p>Sierra Leone, a small West African nation, is a country rich in history and natural beauty. Its diverse landscapes range from lush rainforests to pristine beaches, making it a captivating destination for tourists and explorers alike. The capital city, Freetown, is a vibrant hub of culture and commerce, known for its historic landmarks and warm hospitality.</p>
+        </div>
+
+        <button class="accordion">Struggles in Sierra Leone</button>
+        <div class="panel">
+            <p>Despite its natural resources and potential, Sierra Leone has faced numerous challenges, including civil war and economic instability. However, in recent years, the country has made significant strides in rebuilding its infrastructure and fostering economic growth. The government and international community are working together to address the country's development needs and improve the lives of its citizens.</p>
+        </div>
+
+        <button class="accordion">Sierra Leonean People</button>
+        <div class="panel">
+            <p>Sierra Leone's people are known for their resilience and determination. Despite the hardships they have endured, they remain optimistic about the future. The country's rich cultural heritage, including its music, dance, and art, continues to thrive, reflecting the resilience and spirit of its people. As Sierra Leone continues to progress, it offers a unique blend of natural beauty, cultural richness, and historical significance, making it a fascinating destination for those seeking authentic African experiences.</p>
+        </div>
+    </main>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+  var acc = document.getElementsByClassName("accordion");
+var i;
+}
+    </script>
+</body>
+
+</html>
