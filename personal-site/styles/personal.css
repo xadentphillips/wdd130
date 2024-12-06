@@ -195,6 +195,7 @@ a{
     grid-row: 1/2;
 }
 #donategrid{
+    padding-top: 50px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 0 auto;
