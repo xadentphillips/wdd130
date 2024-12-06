@@ -124,6 +124,101 @@ a{
     max-width: 700px;
     padding-top: 100px;
 }
+#projectstitle{
+    text-align: center;
+    font-size: 3em;
+}
+#par1{
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+#ptitle{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#projectgrid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#Mariesection{
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 75px;
+}
+#Mariewords{
+    grid-column: 1/2;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 450px;
+}
+#Mariepic{
+    grid-column: 2/3;
+    margin: 0 auto;
+    max-height: 400px;
+}
+#Danielsection{
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+#Danielpic{
+    grid-column: 2/3;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#Danielwords{
+    grid-column: 1/2;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+}
+#flag{
+    max-height: 200px;
+    width: 600px;
+}
+#venmop{
+    max-height: 300px;
+    grid-column: 2/3;
+    padding-right: 110px;
+    grid-row: 1/4;
+}
+#donatewords{
+    grid-column: 1/2;
+    max-width: 500px;
+    grid-row: 1/2;
+}
+#donategrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    grid-template-rows: 1fr 30px 1fr;
+}
+#flagwords{
+    grid-column: 1/2;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+#flagcontain{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    position: relative;
+    text-align: center;
+}
+
+
 #bentitle{
     text-align: center;
 }
