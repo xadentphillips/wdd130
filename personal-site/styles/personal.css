@@ -124,6 +124,8 @@ a{
     max-width: 700px;
     padding-top: 100px;
 }
+
+/* This is the css for my projects page*/
 #projectstitle{
     text-align: center;
     font-size: 3em;
@@ -219,10 +221,111 @@ a{
     text-align: center;
 }
 
-
+/* This is the css for my beneficiaries page*/
 #bentitle{
     text-align: center;
+    font-size: 4em;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
+#bengrid{
+    display: grid;
+    grid-template-columns: 1fr 50px 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    padding-top: 50px;
+}
+#bakarwords{
+    text-align: center;
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+#bakarpic{
+    margin: 0 auto;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    max-height: 600px;
+}
+#kadiswords{
+    text-align: center;
+    margin: 0 auto;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+#kadispic{
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    max-height: 550px;
+}
+#margaretwords{
+    text-align: center;
+    margin: 0 auto;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#margaretpic{
+    text-align: center;
+    margin: 0 auto;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+#bakarcaption{
+    font-size: .75em;
+}
+#venmopic{
+    max-height: 400px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin: 0 auto;
+}
+.description{
+    max-width: 450px;
+}
+#difgrid{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 800px;
+}
+#difcap{
+    text-align: center;
+    max-width: 450px;
+}
+#lists{
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    grid-template-columns: 1fr 40px 1fr;
+}
+#diftitle{
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+#equals{
+    text-align: left;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+#money{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#equivalent{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
 /* This is the css for my footer */
 footer{
     background-color:#68CDDF;
