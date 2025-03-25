@@ -58,11 +58,11 @@ resource "aws_security_group" "byuisg" {
   }
 }
 
-# Create an EC2 instance Amazon Linux 2 with MATE ami-0206d67558efa3db1
-# Newest MATE Nov 2024 ami-0b8aeb1889f1a812a
-# Virginia ami-007855ac798b5175e
+# Create an EC2 instance Amazon Linux 2 with MATE ami-0ee6377b786fa4008
+# Newest MATE Nov 2024 ami-0ee6377b786fa4008
+# Virginia ami-0ee6377b786fa4008
 resource "aws_instance" "kali_linx_host" {
-  ami = "ami-0206d67558efa3db1"
+  ami = "ami-0ee6377b786fa4008"
   instance_type = "t2.micro"
   key_name = aws_key_pair.server_key.key_name
   vpc_security_group_ids = [aws_security_group.byuisg.id]
